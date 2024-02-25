@@ -133,11 +133,8 @@ const educationInfo = {
       logo: require("./assets/images/stevens logo.png"),
       subHeader: "Master of Science in Machine Learning ",
       duration: "September 2022 - December 2023",
-      desc: "GPA : 3.5/4 Relevant Coursework: Artificial Intelligence, Deep Learning, Natural Language Processing,Computational Cognitive Science, Web Mining, Machine Learning - fundamentals and applications, Data Mining - II",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      descBullets: ["GPA : 3.5/4" ,
+        "Relevant Coursework: Artificial Intelligence, Deep Learning, Natural Language Processing,Computational Cognitive Science, Web Mining, Machine Learning - fundamentals and applications, Data Mining - II"],
     },
     {
       schoolName: "Manipal Institute of Technology",
@@ -156,16 +153,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Microservices", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Machine Learning",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Deep Learning",
+      progressPercentage: "80%"
+    },
+    {
+      Stack:"Natural Language Processing",
+      progressPercentage:"85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -196,7 +197,8 @@ const workExperiences = {
       desc:"Supply Chain Tech. team",
       descBullets:[
         "Developed microservices using Node.js and Java as per REST architecture to meet the requirements of over 2 million inventory requests used for global delivery of retail products",
-        "Reduced the latency by 42% using an event driven architecture using Apache Kafka. Enhanced the UI using html/css and React.js to improve user experience for the platform or seamless project management"
+        "Reduced the latency by 42% using an event driven architecture using Apache Kafka. ",
+        "Enhanced the UI using html/css and React.js to improve user experience for the platform or seamless project management"
       ]
     },
     {
@@ -204,7 +206,8 @@ const workExperiences = {
       company: "kloudone",
       companylogo: require("./assets/images/kloudone-logo.png"),
       date: "Aug 2020 – Jan 2021",
-      descBullets: ["Built and deployed microservices in Go using gRPC for Accuknox, a container security platform. Leveraged Apache KafKa for event stream, Docker for containerization. Improved CI/CD (Continuous Integration/Continuous Deployment ) pipeline using Jenkins to reduce downtime by 27%",
+      descBullets: ["Built and deployed microservices in Go using gRPC for Accuknox, a container security platform. Leveraged Apache KafKa for event stream, Docker for containerization.",
+      " Improved CI/CD (Continuous Integration/Continuous Deployment ) pipeline using Jenkins to reduce downtime by 27%",
       "Leveraged Apache KafKa for event stream, Docker for containerization. Improved CI/CD (Continuous Integration/Continuous Deployment ) pipeline using Jenkins to reduce downtime by 27%"]
     }
   ]
@@ -277,9 +280,7 @@ const achievementSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  //number: "+92-0000000000",
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   email_address: "mayank.raj15310@gmail.com",
   display: true
 };
