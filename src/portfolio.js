@@ -139,9 +139,9 @@ const educationInfo = {
     {
       schoolName: "Manipal Institute of Technology",
       logo: require("./assets/images/manipal-logo.jpg"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelor of Technology in Computer Science",
       duration: "Graduated in August 2020",
-      desc: "Graduation thesis got published in an international IEEE conference",
+      descBullets: ["Graduation thesis got published in an international IEEE conference"]
       //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -284,13 +284,6 @@ const contactInfo = {
   email_address: "mayank.raj15310@gmail.com",
   display: true
 };
-
-// Twitter Section
-
-// const twitterDetails = {
-//   userName: "twitter", //Replace "twitter" with your twitter username without @
-//   display: false // Set true to display this section, defaults to false
-// };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
