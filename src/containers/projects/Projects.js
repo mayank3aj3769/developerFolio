@@ -45,7 +45,7 @@ export default function Projects() {
     return (
       <Suspense fallback={renderLoader()}>
     
-          <h1 className="project-title">Open Source Projects</h1>
+          <h1 className="project-title">Projects</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {
