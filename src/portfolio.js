@@ -39,12 +39,6 @@ const socialMediaLinks = {
   github: "https://github.com/mayank3aj3769",
   linkedin: "https://www.linkedin.com/in/mayank-raj77",
   gmail: "mayank.raj15310@gmail.com",
-  //gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
@@ -90,10 +84,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -271,7 +261,7 @@ const achievementSection = {
       title: "Deep Neural Network approach for navigation of autonomous vehicle",
       subtitle:
         " Designed a CNN-based Deep Learning model using over 200,000 real-world images and sensor data, integrating image compression and normalization techniques for GPU memory optimization. \n"+
-        " Published in IEEE, 6th International Conference for Convergence in Technology as first author. Citations – 4, h- index -1",
+        " Published in IEEE, 6th International Conference for Convergence in Technology as first author. Citations – 3, h- index -1",
       image: require("./assets/images/IEEE-logo.png"),
       imageAlt: "IEEE Logo",
       footerLink: [
@@ -296,17 +286,9 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  //number: "+92-0000000000",
   email_address: "mayank.raj15310@gmail.com",
   display: true
 };
-
-// Twitter Section
-
-// const twitterDetails = {
-//   userName: "twitter", //Replace "twitter" with your twitter username without @
-//   display: false // Set true to display this section, defaults to false
-// };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
@@ -319,13 +301,8 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  //openSource,
   bigProjects,
   achievementSection,
-  //blogSection,
-  //talkSection,
-  //podcastSection,
   contactInfo,
-  //twitterDetails,
   isHireable
 };
