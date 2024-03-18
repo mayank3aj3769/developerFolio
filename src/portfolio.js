@@ -29,7 +29,7 @@ const greeting = {
     " I've developed a deep understanding of Deep Learning and Natural Language Processing."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/14Z6OK5clSyazIBrqGNtfhANk8wm_DiBN/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1TbTJ6lodYXuOc2RtMs-Rtz8f_LxR7HJo/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -237,7 +237,7 @@ const achievementSection = {
     {
       title: "Deep Neural Network approach for navigation of autonomous vehicle",
       subtitle:
-        " Designed a CNN-based Deep Learning model using over 200,000 real-world images and sensor data, integrating image compression and normalization techniques for GPU memory optimization. Published in IEEE, 6th International Conference for Convergence in Technology as first author. Citations – 4, h- index -1",
+        " Designed a CNN-based Deep Learning model using over 200,000 real-world images and sensor data, integrating image compression and normalization techniques for GPU memory optimization. Published in IEEE, 6th International Conference for Convergence in Technology as first author. Citations – 3, h- index -1",
       image: require("./assets/images/IEEE-logo.png"),
       imageAlt: "IEEE Logo",
       footerLink: [
